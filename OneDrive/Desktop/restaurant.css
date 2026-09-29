@@ -1,0 +1,207 @@
+/* Body */
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #fff8f0;
+color: #333;
+}
+
+
+
+/* Logo */
+
+body > img {
+width: 90px;
+height: 90px;
+object-fit: cover;
+border-radius: 50%;
+display: block;
+margin: 20px auto 5px;
+}
+
+/* Main Heading */
+
+h1 {
+text-align: center;
+font-size: 38px;
+color: #8b0000;
+margin: 5px 0 20px;
+letter-spacing: 2px;
+}
+
+/* Navigation */
+
+nav {
+background: #8b0000;
+padding: 15px;
+text-align: center;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 0 20px;
+font-weight: bold;
+}
+
+nav a:hover {
+color: #ffd700;
+}
+
+/* Welcome */
+
+body > h2 {
+text-align: center;
+color: #8b0000;
+margin-top: 40px;
+
+}
+
+body > p {
+width: 70%;
+margin: 10px auto;
+text-align: center;
+line-height: 1.7;
+}
+
+/* Buttons */
+
+button {
+background: #8b0000;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 20px;
+cursor: pointer;
+font-weight: bold;
+}
+
+button:hover {
+background: #d2691e;
+}
+
+body > button {
+display: block;
+margin: 20px auto 40px;
+}
+
+/* Food Menu */
+
+section {
+padding: 30px;
+text-align: center;
+}
+
+section h2 {
+color: #921414;
+font-size: 32px;
+margin-bottom: 30px;
+}
+section > div {
+    width: 220px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+section > div img {
+    width: 160px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+section > div h3 {
+    color: #8b0000;
+}
+
+section > div p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+section > div p:nth-of-type(2) {
+    color: #d2691e;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* Chinese Food */
+
+.chinese-food {
+width: 190px;
+height: 100px;
+;
+}
+
+/* Special Offer */
+.offer {
+    text-align: center;
+}
+
+.offer-box {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(rgb(173, 18, 18),rgb(237, 131, 70));
+    color: white;
+    border-radius: 15px;
+}
+
+.offer-box h3 {
+    color: #ffd700;
+}
+
+.offer-box button {
+    background: white;
+    color: #8b0000;
+}
+button:hover {
+    background: #d2691e;
+}
+button:hover {
+    background: #968e88;
+}
+
+/* Reservation Form */
+
+form {
+    width: 400px;
+    margin: auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #ccc;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #8b0000;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    display: block;
+    margin: 20px auto 0;
+}
+
+footer {
+    background-color:#8b0000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
